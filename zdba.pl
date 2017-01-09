@@ -10,7 +10,7 @@ use File::Spec;
 use Log::Log4perl ':easy';
 use Log::Any::Adapter;
 
-use lib File::Spec->catfile( $Bin, 'lib' );
+use lib "$Bin/lib";
 use ZDBA;
 
 $ENV{ZDBA_SPLIT_LOGS} = 0;
